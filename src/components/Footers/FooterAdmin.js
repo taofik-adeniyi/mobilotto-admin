@@ -1,6 +1,7 @@
 import React from "react";
 
 export default function FooterAdmin() {
+  const AppName = "Mobilotto"
   return (
     <>
       <footer className="block py-4">
@@ -11,10 +12,11 @@ export default function FooterAdmin() {
               <div className="text-sm text-gray-600 font-semibold py-1 text-center md:text-left">
                 Copyright © {new Date().getFullYear()}{" "}
                 <a
-                  href="https://www.creative-tim.com?ref=nr-footer-admin"
+                  // href="https://www.creative-tim.com?ref=nr-footer-admin"
                   className="text-gray-600 hover:text-gray-800 text-sm font-semibold py-1"
                 >
-                  Creative Tim
+                  {/* Creative Tim */}
+                  {AppName}
                 </a>
               </div>
             </div>
@@ -22,15 +24,15 @@ export default function FooterAdmin() {
               <ul className="flex flex-wrap list-none md:justify-end  justify-center">
                 <li>
                   <a
-                    href="https://www.creative-tim.com?ref=nr-footer-admin"
+                    // href="https://www.creative-tim.com?ref=nr-footer-admin"
                     className="text-gray-700 hover:text-gray-900 text-sm font-semibold block py-1 px-3"
                   >
-                    Creative Tim
+                    {AppName}
                   </a>
                 </li>
                 <li>
                   <a
-                    href="https://www.creative-tim.com/presentation?ref=nr-footer-admin"
+                    // href="https://www.creative-tim.com/presentation?ref=nr-footer-admin"
                     className="text-gray-700 hover:text-gray-900 text-sm font-semibold block py-1 px-3"
                   >
                     About Us
@@ -38,20 +40,20 @@ export default function FooterAdmin() {
                 </li>
                 <li>
                   <a
-                    href="http://blog.creative-tim.com?ref=nr-footer-admin"
+                    // href="http://blog.creative-tim.com?ref=nr-footer-admin"
                     className="text-gray-700 hover:text-gray-900 text-sm font-semibold block py-1 px-3"
                   >
-                    Blog
+                    Contact
                   </a>
                 </li>
-                <li>
+                {/* <li>
                   <a
                     href="https://github.com/creativetimofficial/notus-react/blob/master/LICENSE.md?ref=nr-footer-admin"
                     className="text-gray-700 hover:text-gray-900 text-sm font-semibold block py-1 px-3"
                   >
                     MIT License
                   </a>
-                </li>
+                </li> */}
               </ul>
             </div>
           </div>
