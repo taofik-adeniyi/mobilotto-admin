@@ -12,7 +12,7 @@ export default function FooterAdmin() {
               <div className="text-sm text-gray-600 font-semibold py-1 text-center md:text-left">
                 Copyright © {new Date().getFullYear()}{" "}
                 <a
-                  // href="https://www.creative-tim.com?ref=nr-footer-admin"
+                  href="/msj"
                   className="text-gray-600 hover:text-gray-800 text-sm font-semibold py-1"
                 >
                   {/* Creative Tim */}
@@ -24,7 +24,7 @@ export default function FooterAdmin() {
               <ul className="flex flex-wrap list-none md:justify-end  justify-center">
                 <li>
                   <a
-                    // href="https://www.creative-tim.com?ref=nr-footer-admin"
+                    href="/kn"
                     className="text-gray-700 hover:text-gray-900 text-sm font-semibold block py-1 px-3"
                   >
                     {AppName}
@@ -32,7 +32,7 @@ export default function FooterAdmin() {
                 </li>
                 <li>
                   <a
-                    // href="https://www.creative-tim.com/presentation?ref=nr-footer-admin"
+                    href="/dff"
                     className="text-gray-700 hover:text-gray-900 text-sm font-semibold block py-1 px-3"
                   >
                     About Us
@@ -40,20 +40,12 @@ export default function FooterAdmin() {
                 </li>
                 <li>
                   <a
-                    // href="http://blog.creative-tim.com?ref=nr-footer-admin"
+                    href="/nhu"
                     className="text-gray-700 hover:text-gray-900 text-sm font-semibold block py-1 px-3"
                   >
                     Contact
                   </a>
                 </li>
-                {/* <li>
-                  <a
-                    href="https://github.com/creativetimofficial/notus-react/blob/master/LICENSE.md?ref=nr-footer-admin"
-                    className="text-gray-700 hover:text-gray-900 text-sm font-semibold block py-1 px-3"
-                  >
-                    MIT License
-                  </a>
-                </li> */}
               </ul>
             </div>
           </div>

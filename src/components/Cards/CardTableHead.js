@@ -3,7 +3,7 @@ import React from 'react'
 export default function CardTableHead({color, showTh}) {
     return (
         <>
-        {showTh == "no" ? 
+        {showTh === "no" ? 
              <thead>
              <tr>
                {/* Do not display Thead */}

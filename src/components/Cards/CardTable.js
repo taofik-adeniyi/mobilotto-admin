@@ -4,6 +4,7 @@ import PropTypes from "prop-types";
 // components
 import CardTableHead from "./CardTableHead";
 import CardTableBody from "./CardTableBody";
+import ClickHere from "components/ClickHere/ClickHere";
 
 export default function CardTable({ color, title, showTh, showFullBody, aka }) {
   return (
@@ -30,11 +31,12 @@ export default function CardTable({ color, title, showTh, showFullBody, aka }) {
         </div>
         <div className="block w-full overflow-x-auto">
           {/* Projects table */}
-          <table className="items-center w-full bg-transparent border-collapse">
+          <table className="border-collapse border border-green-800 items-center w-full bg-transparent border-collapse">
             <CardTableHead color='light' showTh={showTh} />
             <CardTableBody showFullBody={showFullBody} aka={aka} />
           </table>
         </div>
+        <ClickHere />
       </div>
     </>
   );
