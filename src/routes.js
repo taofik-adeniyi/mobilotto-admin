@@ -7,19 +7,19 @@ export const RoutesData = [
     },
     {
         id: 2,
-        name: 'Settings',
+        name: 'Analytics',
         logo: 'fa-tools',
         location: '/admin/settings'
     },
     {
         id: 3,
-        name: 'Tables',
+        name: 'Finanace',
         logo: 'fa-table',
         location: '/admin/tables'
     },
     {
         id: 4,
-        name: 'Maps',
+        name: 'Players',
         logo: 'fa-map-marked',
         location: '/admin/maps'
     },
@@ -43,8 +43,32 @@ export const RoutesData = [
     },
     {
         id: 8,
-        name: 'More',
+        name: 'Statistics Revenue',
         logo: 'fa-map-marked',
         location: '/admin/more'
+    },
+    {
+        id: 9,
+        name: 'Registration',
+        logo: 'fa-table',
+        location: '/admin/transactions'
+    },
+    {
+        id: 9,
+        name: 'Winnings',
+        logo: 'fa-table',
+        location: '/admin/transactions-user'
+    },
+    {
+        id: 9,
+        name: 'Deposit',
+        logo: 'fa-table',
+        location: '/admin/transactions-user'
+    },
+    {
+        id: 10,
+        name: 'Paymaster',
+        logo: 'fa-table',
+        location: '/admin/transactions-user'
     }
 ]
