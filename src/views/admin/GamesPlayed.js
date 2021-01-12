@@ -10,7 +10,6 @@ export default function GamesPlayed() {
           aka="games-played"
           showClickHere={true}
         />
-        More --->
       </div>
     </div>
   );
