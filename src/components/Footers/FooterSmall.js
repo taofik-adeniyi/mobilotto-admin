@@ -1,6 +1,7 @@
 import React from "react";
 
 export default function FooterSmall(props) {
+  const AppName = "Mobilotto"
   return (
     <>
       <footer
@@ -17,14 +18,15 @@ export default function FooterSmall(props) {
               <div className="text-sm text-gray-600 font-semibold py-1 text-center md:text-left">
                 Copyright © {new Date().getFullYear()}{" "}
                 <a
-                  href="https://www.creative-tim.com?ref=nr-footer-small"
+                  // href="https://www.creative-tim.com?ref=nr-footer-small"
+                  href="/"
                   className="text-white hover:text-gray-400 text-sm font-semibold py-1"
                 >
-                  Creative Tim
+                  { AppName }
                 </a>
               </div>
             </div>
-            <div className="w-full md:w-8/12 px-4">
+            {/* <div className="w-full md:w-8/12 px-4">
               <ul className="flex flex-wrap list-none md:justify-end  justify-center">
                 <li>
                   <a
@@ -59,7 +61,7 @@ export default function FooterSmall(props) {
                   </a>
                 </li>
               </ul>
-            </div>
+            </div> */}
           </div>
         </div>
       </footer>
