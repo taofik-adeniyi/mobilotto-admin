@@ -27,7 +27,7 @@ export const RoutesData = [
         id: 5,
         name: 'Games',
         logo: 'fa-tv',
-        location: '/admin/games'
+        location: '/admin/games-played'
     },
     {
         id: 6,

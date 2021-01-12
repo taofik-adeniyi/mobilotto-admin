@@ -12,6 +12,8 @@ import FooterAdmin from "components/Footers/FooterAdmin.js";
 
 import Dashboard from "views/admin/Dashboard.js";
 import Registration from "views/admin/Registration";
+import Winning from "views/admin/Winning";
+import GamesPlayed from "views/admin/GamesPlayed";
 import Deposit from "views/admin/Deposit";
 import Maps from "views/admin/Maps.js";
 import Settings from "views/admin/Settings.js";
@@ -30,6 +32,8 @@ export default function Admin() {
             <Route path="/admin/dashboard" exact component={Dashboard} />
             <Route path="/admin/registration" exact component={Registration} />
             <Route path="/admin/deposit" exact component={Deposit} />
+            <Route path="/admin/winning" exact component={Winning} />
+            <Route path="/admin/games-played" exact component={GamesPlayed} />
             <Route path="/admin/maps" exact component={Maps} />
             <Route path="/admin/settings" exact component={Settings} />
             <Route path="/admin/tables" exact component={Tables} />
