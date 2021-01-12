@@ -51,7 +51,7 @@ export const RoutesData = [
         id: 9,
         name: 'Registration',
         logo: 'fa-table',
-        location: '/admin/transactions'
+        location: '/admin/registration'
     },
     {
         id: 9,

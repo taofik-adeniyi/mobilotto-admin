@@ -6,7 +6,7 @@ import CardTableHead from "./CardTableHead";
 import CardTableBody from "./CardTableBody";
 import ClickHere from "components/ClickHere/ClickHere";
 
-export default function CardTable({ color, title, showTh, showFullBody, aka }) {
+export default function CardTable({ color, title, showTh, showFullBody, aka, showClickHere }) {
   return (
     <>
       <div
@@ -36,7 +36,7 @@ export default function CardTable({ color, title, showTh, showFullBody, aka }) {
             <CardTableBody showFullBody={showFullBody} aka={aka} />
           </table>
         </div>
-        <ClickHere />
+        {showClickHere ? <ClickHere aka={aka}/> : <div style={{height: 70}} />}
       </div>
     </>
   );
