@@ -8,7 +8,7 @@ export default function GamesPlayed() {
         <CardTable
           title="Game Play Amount Summary (₦ Naira)"
           aka="games-played"
-          showClickHere={true}
+          showClickHere={false}
         />
       </div>
     </div>
