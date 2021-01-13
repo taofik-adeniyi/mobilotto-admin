@@ -5,7 +5,7 @@ import { Switch, Route, Redirect } from "react-router-dom";
 
 import Navbar from "components/Navbars/AuthNavbar.js";
 import FooterSmall from "components/Footers/FooterSmall.js";
-import FooterAdmin from "components/Footers/FooterAdmin.js"
+// import FooterAdmin from "components/Footers/FooterAdmin.js"
 // views
 
 import Login from "views/auth/Login.js";
